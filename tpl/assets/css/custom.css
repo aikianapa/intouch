@@ -1,0 +1,849 @@
+.child-mb-30 > * {
+    margin-bottom: 30px;
+}
+.child-mb-20 > * {
+    margin-bottom: 1.25rem;
+}
+.child-mb-20 > *:last-child {
+    margin-bottom: 0px;
+}
+
+.h2 {font-weight:bold;}
+
+@media (min-width: 992px) {
+    .child-mb-lg-20 > * {
+        margin-bottom: 1.25rem !important;
+    }
+    .child-mb-lg-20 > *:last-child {
+        margin-bottom: 0;
+    }
+    .child-mb-lg-40 > * {
+        margin-bottom: 2.5rem !important;
+    }
+    .child-mb-lg-40 > *:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+.owf-ellipsis {
+    text-transform: capitalize;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:100%;
+}
+
+.card-text br {
+    height: 16px;
+    display: block;
+    content: ' ';
+}
+
+div.dropdown-toggle::after {
+    float:right;
+}
+.card-product ul {
+    padding-left:20px;
+}
+.business-request ol {
+    padding-left:20px;
+}
+
+#prodshow .tab-pane {
+    padding-top:20px;
+}
+
+#prodshow #description h3, #prodshow #delivery h3{
+    color: #555!important;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom:20px;
+}
+
+.product-small-text {
+    font-size: 6px;
+}
+
+#products .small ul {
+    padding: 0;
+}
+#products .small ul li {
+    list-style: none;
+}
+
+.dropdown.show .dropdown-menu {display:block;}
+
+
+/*evisa page styles start 09.11.2019*/
+#evisa{
+  margin-top: 0 !important;
+}
+.evisa-center-block-title{
+  font-size: 2rem;
+  color: #53c419;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+.evisa-bottom-notify-card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.evisa-bottom-notify-card.icon-1{
+  background: url(../img/e-visa/icon-1.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.icon-2{
+  background: url(../img/e-visa/icon-2.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.icon-3{
+  background: url(../img/e-visa/icon-3.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.icon-4{
+  background: url(../img/e-visa/icon-4.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.icon-5{
+  background: url(../img/e-visa/icon-5.png) #ebebeb no-repeat 11px 25px;
+}
+.evisa-bottom-notify-card.icon-6{
+  background: url(../img/e-visa/icon-6.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.icon-7{
+  background: url(../img/e-visa/icon-7.png) #ebebeb no-repeat 11px 25px;
+}
+.evisa-bottom-notify-card.icon-8{
+  background: url(../img/e-visa/icon-8.png) #ebebeb no-repeat 15px 25px;
+}
+.evisa-bottom-notify-card.w48{
+  background-size: 32px 32px;
+}
+.evisa-bottom-notify-card.w60{
+  background-size: 44px 32px;
+}
+.evisa-bottom-notify-card.w74{
+  background-size: 52px 20px;
+}
+.evisa-text-block{
+  max-width: 250px;
+}
+.evisa-content-block{
+  justify-content: space-between;
+}
+.evisa-bottom-notify-card{
+  width: 48%;
+  background: #ebebeb;
+  display: flex;
+  border-radius: 15px;
+  font-size: 14px;
+  padding: 22px 15px 22px 72px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.evisa-bottom-notify-card:nth-child(2n) {
+  margin: 0 0 20px;
+}
+.evisa-bottom-notify-card img{
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 5px;
+}
+.evisa-bottom-notify-card span{
+  font-size: 14px;
+  line-height: 17px;
+}
+.evisa-text-block p{
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #171C2C !important;
+  font-weight: 700 !important;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.evisa-content-block .col-lg-6{
+  min-width: 640px;
+}
+.evisa-text-block p:first-child{
+  margin-top: 0;
+}
+.evisa-text-block span{
+  font-size: 1rem;
+}
+.evisa-big-image-green-block{
+  position: absolute;
+  font-size: 13px;
+  line-height: 17px;
+  right: 0;
+  top: 0;
+  max-width: 140px;
+  background: #99ce78;
+  padding: 15px;
+  border-radius: 15px;
+}
+.evisa-big-image-green-block b{
+  font-weight: 700;
+    color: #FFF;
+}
+.evisa-big-image-green-block a{
+    color: #FFF;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.evisa-step-one-text{
+  max-width: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+}
+.evisa-center-block-background{
+  background: url(../img/e-visa/image-big.png) no-repeat;
+  background-size: contain;
+  background-position-x: 50%;
+  height: 600px;
+  position: relative;
+  margin-bottom: 90px;
+}
+.evisa-step-arrow-container{
+  position: relative;
+}
+.evisa-step-arrow{
+  width: 5px;
+  height: 5px;
+  background: #484848;
+  border-radius: 50%;
+  position: absolute;
+  margin-bottom: 0;
+}
+.evisa-step-arrow:before{
+  content: '';
+  background: #484848;
+  height: 1px;
+  position: absolute;
+}
+.evisa-step-arrow.evisa-first{
+  position: absolute;
+  right: -80px;
+  bottom: 83px;
+}
+.evisa-step-arrow.evisa-first:before {
+  left: -80px;
+  top: 2px;
+  width: 80px;
+}
+.evisa-step-arrow.evisa-first:after{
+  content: '1';
+  font-size: 14px;
+  color: #484848;
+  font-weight: 700;
+  position: absolute;
+  left: -80px;
+  top: -19px;
+}
+.evisa-step-arrow.evisa-second{
+  position: absolute;
+  left: -80px;
+  bottom: -20px;
+}
+.evisa-step-arrow.evisa-second:before {
+  left: -13px;
+  top: -23px;
+  width: 60px;
+  transform: rotate(-60deg);
+}
+.evisa-step-arrow.evisa-second:after{
+  content: '2';
+  font-size: 14px;
+  color: #484848;
+  font-weight: 700;
+  position: absolute;
+  left: 29px;
+  top: -68px;
+}
+.evisa-step-arrow.evisa-third{
+  position: absolute;
+  left: -69px;
+  bottom: 85px;
+}
+.evisa-step-arrow.evisa-third:before {
+    left: -1px;
+    top: 17px;
+    width: 60px;
+    transform: rotate(29deg);
+}
+.evisa-step-arrow.evisa-third:after{
+  content: '3';
+  font-size: 14px;
+  color: #484848;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+}
+.evisa-bottom-hint{
+    text-align: center;
+}
+.evisa-bottom-hint br:nth-child(2n){
+    display: none;
+}
+@media (max-width: 1199px) {
+    .evisa-step-arrow.evisa-third{
+        display: none;
+    }
+    .evisa-content-block .evisa-text-block:last-child{
+        max-width: 100%;
+        width: 100%;
+        min-width: 100%;
+    }
+    .evisa-content-block .evisa-text-block:last-child br{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .evisa-content-block .evisa-text-block{
+        max-width: 100%;
+        width: 100%;
+        min-width: 100%;
+    }
+    .evisa-content-block .evisa-text-block br{
+        display: none;
+    }
+    .evisa-flex {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .evisa-step-arrow.evisa-second{
+        bottom: -40px;
+    }
+    .evisa-step-arrow.evisa-first{
+        right: -120px;
+    }
+    .evisa-step-arrow.evisa-first:after{
+        left: -120px;
+    }
+    .evisa-step-arrow.evisa-first:before{
+        width: 120px;
+        left: -120px;
+    }
+}
+@media (max-width: 767px) {
+    .evisa-text-block, .evisa-flex{
+        margin-left: 0;
+    }
+    .evisa-flex{
+        min-width: 100% !important;
+    }
+    .evisa-step-arrow.evisa-first, .evisa-step-arrow.evisa-second{
+        display: none;
+    }
+}
+@media (max-width: 529px) {
+    .evisa-bottom-notify-card-container{
+        display: block;
+    }
+    .evisa-bottom-notify-card{
+        width: 100%;
+    }
+    .evisa-step-one-text{
+        max-width: 100%;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .evisa-center-block-background{
+        width: 100%;
+        max-width: 620px;
+    }
+    .evisa-bottom-notify-card{
+        -webkit-flex-basis: calc(28% - 2px);
+        flex-basis: calc(28% - 2px);
+    }
+    .custom-radio-container label{
+        padding-top: 15px;
+    }
+    .personal-details .custom-radio-container label, .visa-delivery-section{
+        padding-top: 0;
+    }
+    .ie-label-padding{
+        padding-top: 6px !important;
+    }
+}
+/*e-visa page styles end 09.11.2019*/
+
+/*register form styles start 21.11.2019*/
+.registerform{
+    max-width: 800px;
+    margin: 0 auto !important;
+}
+.custom-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.custom-checkbox-container input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+}
+.custom-checkbox-container input:checked ~ .checkmark {
+    background-color: #99ce78;
+    border: 1px solid #99ce78 !important;
+}
+.custom-checkbox-container input[type="checkbox"] + .checkmark {
+    left: 0;
+}
+.custom-checkbox-container input[type="checkbox"] + .checkmark {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border: 1px solid #FFAC25;
+}
+.custom-checkbox-container label {
+    font-size: 16px;
+    color: #252631;
+    display: flex;
+    align-items: center;
+    line-height: 19px;
+}
+.custom-checkbox-container label {
+    font-size: 16px;
+    color: #252631;
+    display: flex;
+    align-items: center;
+    line-height: 19px;
+}
+.custom-checkbox-container{
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0 !important;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.custom-checkbox-container input[type="checkbox"] + .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #99ce78;
+}
+.custom-checkbox-container input:checked[type="checkbox"] + .checkmark:after {
+    left: 21px;
+    top: 15px;
+    width: 7px;
+    height: 15px;
+    border: solid #99ce78;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.custom-checkbox-container input:checked[type="checkbox"] + .checkmark:before{
+    content: '';
+    background: #FFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.custom-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.custom-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-radio-container{
+    position: relative;
+    /*padding-left: 35px;*/
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    align-self: center;
+    min-height: 50px;
+}
+.yes-no-checkbox-container .custom-radio-container{
+    margin-bottom: 0;
+}
+.custom-radio-container span{
+    font-size: 12px;
+}
+.custom-radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.custom-radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #FFF;
+    border: 1px solid #99ce78;
+    border-radius: 50%;
+}
+.custom-radio-container input:checked ~ .checkmark {
+    background-color: #99ce78;
+}
+.custom-radio-container:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.custom-radio-container label{
+    padding-left: 65px;
+    font-size: 18px;
+    line-height: 17px;
+    color: #555555;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.custom-radio-container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-text-container input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #899caa;
+    border-radius: 50px;
+    padding-left: 75px;
+    padding-right: 20px;
+    font-size: 1rem;
+    font-family: "Gotham Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    margin-bottom: 10px;
+    outline: 0;
+}
+.custom-text-container textarea{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #899caa;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 75px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: "Gotham Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+    outline: 0;
+    overflow: hidden;
+    resize: none}
+.custom-text-container input::placeholder { /* Firefox, Chrome, Opera */
+    color: #899caa;
+}
+
+.custom-text-container input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #899caa;
+}
+
+.custom-text-container input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #899caa;
+}
+.custom-text-container textarea::placeholder { /* Firefox, Chrome, Opera */
+    color: #899caa;
+}
+
+.custom-text-container textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #899caa;
+}
+
+.custom-text-container textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: #899caa;
+}
+.registerform ol{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.registerform ol li{
+    margin-bottom: 30px;
+}
+.registerform ol li:last-child{
+    margin-bottom: 0;
+}
+.registerform h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #50c315;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.registerform h2{
+    font-size: 18px;
+    color: #545454;
+    text-align: center;
+    margin: 45px 0 ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.registerform .green-title{
+    font-size: 18px;
+    color: #50c315;
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.registerform .green-title div{
+    display: inline-block;
+}
+.registerform hr{
+    background-color: #50c315;
+    width: 80%;
+    margin: 10px auto 0;
+}
+.registerform .full-width{
+    width: 100%;
+    margin: 0 !important;
+}
+.registerform .full-width p{
+    margin: 40px 0 0 0 !important;
+}
+.registerform .half-width{
+    width: 50%;
+}
+.registerform .no-padding{
+    padding: 0;
+}
+.registerform .width-third{
+    width: 33.3%;
+    min-width: 33.3%;
+}
+.yes-no-checkbox-container{
+    width: 40%;
+    display: flex;
+    height: 50px;
+}
+.yes-no-checkbox-container .custom-radio-container:first-child{
+    padding-right: 20px;
+}
+.policy-agree-checkbox{
+   min-width: 75px;
+}
+.policy-agree-block-section hr{
+    max-width: 160px;
+    width: 100%;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+.policy-agree-block-section hr:first-child{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.policy-agree-block-section hr:last-child{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.validation{
+    font-size: 29px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 20px;
+    width: 100%;
+    height: 110px;
+    margin-top: 50px;
+    display: none;
+}
+.validation span{
+    position: relative;
+    padding-left: 30px;
+}
+.validation.correct span{
+    position: relative;
+    padding-left: 60px;
+}
+.validation.correct{
+    display: flex;
+    background-color: #5dc84b;
+}
+.validation.correct span:after{
+    content: 'Your application is being processed';
+}
+.validation.correct span:before{
+    content: '';
+    background: url(../img/icons/correct.png) no-repeat;
+    width: 51px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.validation.error{
+    display: flex;
+    background-color: #fe1936;
+}
+.validation.error span:after{
+    content: 'incorrect';
+}
+.validation.error span:before{
+    content: '';
+    background: url(../img/icons/error.png) no-repeat;
+    width: 51px;
+    height: 40px;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+.travel-information-section .green-title{
+    margin-bottom: 0;
+}
+.travel-information-section h2{
+    margin-top: 20px;
+}
+.d-flex-margin-bottom, .home-adress-details-section .green-title{
+    margin-bottom: 22px !important;
+}
+.home-adress-details-section .green-title, .work-details-section .green-title, .ralatives-in-russia-section .green-title{
+    margin-bottom: 35px !important;
+    margin-top: 25px;
+}
+.work-details-section h2, .ralatives-in-russia-section h2{
+    margin-top: 0;
+}
+.submit-button-container, .submit-button-container .btn{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 160px;
+}
+.custom-text-container.error input, .custom-text-container.error textarea{
+    border: 1px solid #fe1936;
+}
+.custom-radio-container.error .checkmark{
+    border: 1px solid #fe1936;
+}
+.custom-radio-container.error label{
+   color: #fe1936;
+}
+.custom-checkbox-container.error input[type="checkbox"] + .checkmark{
+    border: 1px solid #fe1936;
+}
+.custom-checkbox-container.error label{
+    color: #fe1936;
+}
+.custom-text-container.error input::placeholder { /* Firefox, Chrome, Opera */
+    color: #fe1936;
+}
+
+.custom-text-container.error input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fe1936;
+}
+
+.custom-text-container.error input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fe1936;
+}
+.custom-text-container.error textarea::placeholder { /* Firefox, Chrome, Opera */
+    color: #fe1936;
+}
+
+.custom-text-container.error textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fe1936;
+}
+
+.custom-text-container.error textarea::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fe1936;
+}
+@media (max-width: 991px) {
+    .custom-text-container input{
+        padding-left: 45px;
+    }
+    .custom-text-container textarea{
+        height: 100%;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        padding-left: 45px;
+    }
+    .registerform ol{
+        padding-left: 30px;
+    }
+    .yes-no-checkbox-container{
+        margin-right: 20px;
+    }
+    .validation.correct span:after{
+        display: flex;
+        justify-content: center;
+        max-width: 350px;
+    }
+    .validation.correct span:before{
+        left: -30px;
+        top: 6px;
+    }
+}
+@media (max-width: 670px) {
+    .personal-details .d-flex, .travel-information-section .d-flex, .intended-places-section .d-flex, .russia-visited-section .d-flex, .work-details-section .d-flex, .ralatives-in-russia-section .d-flex{
+        display: block !important;
+    }
+    .personal-details .col-lg-6{
+        width: 100%;
+        max-width: 100%;
+    }
+    .yes-no-checkbox-container{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .custom-text-container textarea {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 540px) {
+    .validation.correct{
+        height: 100%;
+        padding: 0 40px;
+    }
+    .validation.correct span{
+        padding: 40px 0 40px 60px;
+    }
+    .validation.correct span:before {
+        left: 0;
+        top: 46px;
+    }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .custom-radio-container label{
+        padding-top: 15px;
+    }
+    .personal-details .custom-radio-container label, .visa-delivery-section{
+        padding-top: 0;
+    }
+    .ie-label-padding{
+        padding-top: 6px !important;
+    }
+}
+/*register form styles start 21.11.2019*/

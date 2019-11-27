@@ -1,0 +1,141 @@
+@function px2rem($val) {
+  @return $val / 16 * 1rem;
+}
+
+@function rem2px($val) {
+  @return $val / 16 * 1px;
+}
+
+$navbar-expand-breakpoint: lg;
+
+
+
+$gray-100:    #f2f7fa; // will be $light color
+$gray-400:    #c9d2d8;
+$gray-900:    #212529 !default;
+
+$primary:       #53c419;
+$secondary:     $gray-400;
+$success:       #ade359;
+$info:          #1fade2;
+$danger:        #fe1936;
+$warning:       #eb7218;
+$dark:          #555;
+
+$darker:        #434B5D;
+$alternative:   #067957;
+$business-dark: #171C2C;
+$lighter:       #F9FBFC;
+$light-blue:    #E8F0F5;
+
+$theme-colors: (
+  'darker':        $darker,
+  'alternative':   $alternative,
+  'business-dark': $business-dark,
+  'lighter':       $lighter,
+  'light-blue':    $light-blue,
+);
+
+
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+
+  20:   px2rem(20),
+  30:   px2rem(30),
+  35:   px2rem(35),
+  40:   px2rem(40),
+  55:   px2rem(55),
+  60:   px2rem(60),
+  100:  px2rem(100),
+);
+
+
+
+$sizes: (
+  50: 50%,
+  100: 100%,
+  auto: auto,
+  50px: 50px,
+);
+
+
+
+$body-color:                $gray-900;
+
+
+
+$font-family-sans-serif: "Gotham Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-size-base:     1rem;
+$font-weight-base:   300;
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+
+$headings-color:              $primary;
+$headings-font-weight:        400;
+
+$h1-font-size:    px2rem(38);
+$h2-font-size:    px2rem(30);
+$h3-font-size:    px2rem(28);
+$h4-font-size:    px2rem(25);
+$h5-font-size:    px2rem(20);
+
+$small-font-size:  75%;
+
+$dt-font-weight:              $font-weight-normal;
+
+
+
+$badge-font-weight:                 300;
+$badge-padding-y:                   .334em;
+$badge-padding-x:                   .545em;
+$badge-border-radius:               0;
+
+
+
+$navbar-padding-y:        15px;
+$navbar-padding-x:        15px;
+$navbar-brand-padding-y:  0;
+
+$navbar-toggler-padding-y:          0;
+$navbar-toggler-padding-x:          0;
+$navbar-toggler-border-radius:      0;
+
+$navbar-light-color:                $dark;
+$navbar-light-hover-color:          $primary;
+$navbar-light-active-color:         $primary;
+$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 40 29' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-active-color}' stroke-width='3' stroke-miterlimit='10' d='M5 6h30M5 14h30M5 22h22'/%3E%3C/svg%3E"), "#", "%23") !default;
+$navbar-light-toggler-border-color: transparent;
+
+
+
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+
+$breadcrumb-bg:                     transparent;
+$breadcrumb-divider-color:          $dark;
+$breadcrumb-active-color:           $primary;
+
+
+
+$input-btn-padding-y:         .75rem;
+$input-btn-padding-x:         1.875rem;
+
+$btn-font-weight:             $font-weight-light;
+
+$btn-border-radius:           25px;
+
+
+
+$nav-pills-border-radius:           0;
+$nav-pills-link-active-color:       $body-color;
+$nav-pills-link-active-bg:          #fff;

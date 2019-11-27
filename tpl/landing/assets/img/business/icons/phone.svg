@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10926 -22418 30.393 50">
+  <defs>
+    <style>
+      .phone-cls-1, .phone-cls-4 {
+        fill: none;
+      }
+
+      .phone-cls-1 {
+        stroke: #53c419;
+        stroke-width: 2px;
+      }
+
+      .phone-cls-2 {
+        fill: #53c419;
+      }
+
+      .phone-cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3701" class="svg-hover" data-name="Group 3701" transform="translate(10926 -22418)">
+    <g id="Rectangle_3494" data-name="Rectangle 3494" class="phone-cls-1">
+      <rect class="phone-cls-3" width="30.392" height="50" rx="2"/>
+      <rect class="phone-cls-4" x="1" y="1" width="28.392" height="48" rx="1"/>
+    </g>
+    <rect id="Rectangle_3495" data-name="Rectangle 3495" class="phone-cls-2" width="28.431" height="1.961" transform="translate(0.98 10.784)"/>
+    <rect id="Rectangle_3497" data-name="Rectangle 3497" class="phone-cls-2" width="14.706" height="1.961" transform="translate(7.843 5.882)"/>
+    <rect id="Rectangle_3498" data-name="Rectangle 3498" class="phone-cls-2" width="4.902" height="1.961" transform="translate(12.745 42.157)"/>
+    <rect id="Rectangle_3496" data-name="Rectangle 3496" class="phone-cls-2" width="28.431" height="1.961" transform="translate(0.98 35.294)"/>
+  </g>
+</svg>
