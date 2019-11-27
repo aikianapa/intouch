@@ -1,5 +1,5 @@
-Host: http://intouchrussia.com
-Sitemap: http://intouchrussia.com/sitemap.xml
+Host: https://intouchrussia.com
+Sitemap: https://intouchrussia.com/sitemap.xml
 User-agent: *
 Allow: /
 Disallow: /database

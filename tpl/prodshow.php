@@ -109,7 +109,7 @@
                     <div class="row no-gutters border border-light border-top-0">
                         <div class="col-12 p-35">
                             <div class="large mb-20 mb-lg-35 text-primary">{{_VAR[str_interest]}}</div>
-                            <div class="container-fluid px-0" data-wb-role="foreach" data-wb-table="products" data-wb-limit="1" data-wb-rand="true" data-wb-where='category="devices" AND active="on" AND id<>"{{id}}" AND id<>"sim"' data-wb-hide="wb">
+                            <div class="container-fluid px-0" data-wb-role="foreach" data-wb-table="products" data-wb-limit="1" data-wb-rand="true" data-wb-where='category="devices" AND active="on" AND id<>"{{id}}"' data-wb-hide="wb">
                                 <div class="row no-gutters border border-light bg-lighter">
                                     <div class="col-12 col-lg-3 px-20 px-md-100 px-lg-20 py-20"> <img src="/uploads/products/{{id}}/{{images[0][img]}}" class="img-fluid" alt="{{lang[{{_VAR[lang]}}][name]}}"> </div>
                                     <div class="col-12 col-lg-6 p-30">

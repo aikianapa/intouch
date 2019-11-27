@@ -2,7 +2,7 @@
 // common functions
 function wbBeforeEngine() {
     intouch_rus();
-    intouch_https();
+    //intouch_https();
     intouch_setLanguage();
 }
 
