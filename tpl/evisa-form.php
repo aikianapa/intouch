@@ -164,7 +164,7 @@
                 <div class="d-flex">
                     <div class="no-padding col-6 col-lg-6">
                         <label class="custom-radio-container">
-                            <input type="radio" name="other-name">
+                            <input type="checkbox" name="have-other-name" class="control-value-othername">
                             <span class="checkmark"></span>
                             <label>
                                 <p>HAVE YOU EVER HAD OTHER <br>NAMES?<br>
@@ -174,8 +174,8 @@
                         </label>
                     </div>
                     <div class="no-padding col-6 col-lg-6">
-                        <div class="custom-text-container">
-                            <input type="text" placeholder="Explain ...">
+                        <div class="custom-text-container control-show-othername-on">
+                            <input type="text" name="other-name" class="" data-label="Other names" placeholder="Explain ...">
                         </div>
                     </div>
                 </div>
@@ -245,13 +245,13 @@
                 <div class="d-flex">
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="reservation">
+                            <input type="radio" name="reservation" value="hotel" class="control-value-rsvrn" >
                             <span class="checkmark"></span>
                             <label>Hotel</label>
                         </label>
                     </div>
                     <div class="full-width">
-                        <div class="custom-text-container">
+                        <div class="custom-text-container control-show-rsvrn-hotel control-hide-rsvrn-oneday">
                             <input type="text" placeholder="Hotel name, address, phone, email (if available) ...">
                         </div>
                     </div>
@@ -259,12 +259,12 @@
                 <div class="d-flex">
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="reservation">
+                            <input type="radio" name="reservation" value="individual" class="control-value-rsvrn">
                             <span class="checkmark"></span>
                             <label>Individual</label>
                         </label>
                     </div>
-                    <div class="full-width">
+                    <div class="full-width control-show-rsvrn-individual control-hide-rsvrn-oneday">
                         <div class="custom-text-container">
                             <textarea type="text" placeholder="Family name, first name(s) of the individual, address, &#10;phone number, email (if available) ..."></textarea>
                         </div>
@@ -272,7 +272,7 @@
                 </div>
                 <div class="full-width">
                     <label class="custom-radio-container">
-                        <input type="radio" name="reservation">
+                        <input type="radio" name="reservation" value="oneday" class="control-value-rsvrn">
                         <span class="checkmark"></span>
                         <label>One day trip
                             (no reservations)</label>
@@ -285,17 +285,17 @@
                 <div class="d-flex">
                     <div class="yes-no-checkbox-container">
                         <label class="custom-radio-container">
-                            <input type="radio" name="russia-visited">
+                            <input type="radio" name="russia-visited" value="no" class="control-value-rusvis">
                             <span class="checkmark"></span>
                             <label>No</label>
                         </label>
                         <label class="custom-radio-container">
-                            <input type="radio" name="russia-visited">
+                            <input type="radio" name="russia-visited" value="yes" class="control-value-rusvis">
                             <span class="checkmark"></span>
                             <label>Yes</label>
                         </label>
                     </div>
-                    <div class="full-width">
+                    <div class="full-width control-show-rusvis-yes">
                         <div class="custom-text-container">
                             <input type="text" placeholder="HOW MANY TIMES HAVE YOU BEEN TO RUSSIA? ...">
                         </div>
@@ -318,7 +318,7 @@
                         <input type="text" placeholder="HOME ADDRESS Street address, index, city ...">
                     </div>
                     <div class="custom-text-container">
-                        <input type="phone" placeholder="PHONE NUMBER ...">
+                        <input type="text" placeholder="PHONE NUMBER WITH COUNTRY CODE ...">
                     </div>
                     <div class="custom-text-container">
                         <input type="email" placeholder="E-MAIL ....">
@@ -337,21 +337,21 @@
                 <div class="d-flex">
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="work" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>Work</label>
                         </label>
                     </div>
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="retired" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>Retired</label>
                         </label>
                     </div>
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="husband" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>Housewife/husband</label>
                         </label>
@@ -360,14 +360,14 @@
                 <div class="d-flex">
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="study" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>Study</label>
                         </label>
                     </div>
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="unemploued" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>Unemployed</label>
                         </label>
@@ -376,7 +376,7 @@
                 <div class="d-flex">
                     <div class="width-third">
                         <label class="custom-radio-container">
-                            <input type="radio" name="work-details">
+                            <input type="radio" name="work-details" value="specify" class="control-value-workdetails">
                             <span class="checkmark"></span>
                             <label>
                                 Else, specify
@@ -384,21 +384,41 @@
                         </label>
                     </div>
                     <div class="full-width">
-                        <div class="custom-text-container">
+                        <div class="custom-text-container control-show-workdetails-specify">
                             <input type="text" placeholder="Else, specify ...">
                         </div>
                     </div>
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-hide-workdetails-specify
+                    control-show-workdetails-work
+                    control-show-workdetails-retired
+                    control-show-workdetails-study
+                    control-show-workdetails-unemploued
+                    ">
                     <input type="text" placeholder="NAME OF EMPLOYER (SCHOOL)/ PREVIOUS EMPLOYER) ...">
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-hide-workdetails-specify
+                    control-show-workdetails-work
+                    control-show-workdetails-retired
+                    control-show-workdetails-study
+                    control-show-workdetails-unemploued
+                    ">
                     <input type="text" placeholder="WORK POSITION ...">
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-hide-workdetails-specify
+                    control-show-workdetails-work
+                    control-show-workdetails-retired
+                    control-show-workdetails-study
+                    control-show-workdetails-unemploued
+                    ">
                     <input type="text" placeholder="EMPLOYER (SCHOOL) ADDRESS ...">
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-hide-workdetails-specify
+                    control-show-workdetails-work
+                    control-show-workdetails-retired
+                    control-show-workdetails-study
+                    control-show-workdetails-unemploued
+                    ">
                     <input type="text" placeholder="WORK TELEPHONE AND EMAIL ...">
                 </div>
             </section>
@@ -414,17 +434,17 @@
                 <div class="d-flex">
                     <div class="yes-no-checkbox-container">
                         <label class="custom-radio-container">
-                            <input type="radio" name="relatives-in-russia">
+                            <input type="radio" name="relatives-in-russia" value="no" class="control-value-relatives">
                             <span class="checkmark"></span>
                             <label>No</label>
                         </label>
                         <label class="custom-radio-container">
-                            <input type="radio" name="relatives-in-russia">
+                            <input type="radio" name="relatives-in-russia" value="yes" class="control-value-relatives">
                             <span class="checkmark"></span>
                             <label>Yes</label>
                         </label>
                     </div>
-                    <div class="full-width">
+                    <div class="full-width control-show-relatives-yes">
                         <div class="custom-text-container">
                             <input type="text" placeholder="RELATION DEGREE ...">
                         </div>
@@ -433,10 +453,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-show-relatives-yes">
                     <input type="datepicker" placeholder="DATE OF BIRTH ...">
                 </div>
-                <div class="custom-text-container">
+                <div class="custom-text-container control-show-relatives-yes">
                     <input type="text" placeholder="ADDRESS ...">
                 </div>
             </section>

@@ -847,3 +847,187 @@ div.dropdown-toggle::after {
     }
 }
 /*register form styles start 21.11.2019*/
+/*evisa modal 26.11.2019 start*/
+.list-countries-link, .fill-form-now-link{
+    width: 48%;
+    background: #99ce78;
+    border-radius: 15px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.list-countries-link{
+    margin-right: 0 !important;
+}
+.modal-wrap{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1045;
+    opacity: 1;
+    transition: all 0.33s;
+}
+.modal-wrap.invisible{
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.33s;
+}
+.modal-container{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.evisa-list-countries-modal{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.127406);
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1045;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background: #f3f3f7;
+}
+.evisa-list-countries-modal ul{
+    list-style: none;
+    font-weight: 700;
+    padding: 0;
+}
+.evisa-list-countries-modal ul li{
+    font-size: 1.1em;
+}
+.evisa-list-countries-modal h1{
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin-bottom: 1.1em;
+}
+.evisa-close-link-container{
+    right: 60px;
+    justify-content: flex-end;
+    display: flex;
+    cursor: pointer;
+}
+.evisa-close-link img{
+    width: 20px;
+    height: 20px;
+}
+.counries-list-img{
+    max-width: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    cursor: pointer;
+}
+.evisa-list-row {
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.evisa-list-col-first, .evisa-list-col-first-third, .evisa-list-col-first-four{
+    max-width: 190px;
+}
+.fill-form-now-link:hover, .fill-form-now-link:active{
+    color: #FFF;
+    text-decoration: none;
+}
+@media (max-width: 1025px) {
+    .evisa-list-countries-modal h1 {
+        font-size: 1.4em;
+        margin-top: 20px;
+    }
+    .no-overflow{
+        overflow: hidden;
+    }
+}
+@media (max-width: 769px) {
+    .evisa-list-countries-modal h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .evisa-list-countries-modal .row{
+        display: block;
+    }
+    .evisa-list-col-first{
+        width: 100%;
+    }
+    .evisa-list-col-first, .evisa-list-col-first-second, .evisa-list-col-first-third, .evisa-list-col-first-four{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .modal-container{
+        position: absolute;
+        display: block;
+    }
+    .modal-wrap{
+        position: fixed;
+    }
+    .modal-container{
+        overflow-y: scroll;
+    }
+    .counries-list-img{
+        position: relative;
+        margin: 40px auto 0;
+        display: block;
+    }
+    .fill-form--list-countries-container{
+        display: block !important;
+    }
+    .fill-form-now-link, .list-countries-link{
+        width: 100%;
+    }
+    .modal-container{
+        padding: 0;
+    }
+    .evisa-list-countries-modal{
+        border-radius: 0;
+    }
+    .evisa-list-countries-modal ul{
+        text-align: center;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px){
+    .evisa-content-block .evisa-text-block {
+        max-width: 100%;
+        width: 100%;
+        min-width: 100%;
+    }
+    .evisa-flex {
+        flex: 0 0 75% !important;
+        max-width: 100% !important;
+    }
+    .evisa-content-block .evisa-text-block br {
+        display: none;
+    }
+    .evisa-content-block .col-lg-6 {
+        min-width: 640px !important;
+        margin: 0 auto;
+    }
+    .evisa-list-countries-modal{
+        max-width: 960px;
+    }
+}
+/*evisa modal 26.11.2019 end*/
