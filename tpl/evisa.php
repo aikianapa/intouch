@@ -5,7 +5,7 @@
     <script data-wb-append="body">
         $(document).ready(function()
         {
-            $(".list-countries-link").click(function()
+            $(".list-countries-link, .countries-link").click(function()
             {
                 $(".modal-wrap").removeClass('invisible');
                 $('body').addClass('no-overflow');
@@ -121,7 +121,7 @@
                 <section class="evisa-text-block col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0 col-lg-3 mb-40 mb-lg-60">
                     <div class="">
                         <p>Russian  <br>e-visa</p> <span>
-                    Since October 01, 2019, citizens of 53 countries can visit St. Petersburg, the Leningrad Region and Kaliningrad for the period of up to 8 days using e-visa. Applying for e-visa using the IntouchRussia visa service in English, you will get a visa quickly and without any errors. We will take care of the e-visa processing on your behalf and deliver the issued e-visa in accordance with your order. An e-visa is submitted in Russian or English directly to the electronic system of the  <a href="https://evisa.kdmid.ru/" target="_blank">Russian Ministry of Foreign Affairs</a>. The issued e-visa is a separate document which is to be submitted to the border authority upon entry and exit from Russia.
+                    Since October 01, 2019, citizens of <a href="javascript:void(0);" class="countries-link">53 countries</a> can visit St. Petersburg, the Leningrad Region and Kaliningrad for the period of up to 8 days using e-visa. Applying for e-visa using the IntouchRussia visa service in English, you will get a visa quickly and without any errors. We will take care of the e-visa processing on your behalf and deliver the issued e-visa in accordance with your order. An e-visa is submitted in Russian or English directly to the electronic system of the  <a href="https://evisa.kdmid.ru/" target="_blank">Russian Ministry of Foreign Affairs</a>. The issued e-visa is a separate document which is to be submitted to the border authority upon entry and exit from Russia.
                 </span> <p>Russian e-visa –<br>
                             easy to issue!</p>
                         <span>
