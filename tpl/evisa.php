@@ -157,11 +157,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="evisa-bottom-notify-card-container"> <div class="evisa-bottom-notify-card icon-1 w48">
+                        <div class="evisa-bottom-notify-card-container">
+                        <!--div class="evisa-bottom-notify-card icon-1 w48">
                                 <span>
                                     Simple application form in English...
                                 </span>
-                        </div>
+                        </div-->
                         <div class="evisa-bottom-notify-card icon-2 w48">
                             <span>
                             You can <a href="https://evisa.kdmid.ru/en-US/Home/StatusCheck" target="_blank">check the status</a> of your application online by yourself.
@@ -172,26 +173,26 @@
                                     An e-visa can be paid for online using the Paytrail service (...)
                                 </span>
                             </div>
-                            <div class="evisa-bottom-notify-card icon-4 w48">
+                            <!--div class="evisa-bottom-notify-card icon-4 w48">
                                 <span>
                                     In case you have printed photos, we will digitize them. We can also correct your digital photo so that it would fit the required form.
                                 </span>
-                            </div>
+                            </div-->
                             <div class="evisa-bottom-notify-card icon-5 w60">
                                 <span>
                                     <a href="/e-visa-form">We will deliver the issued e-visa to any selected location</a> (delivery costs are not included into the mentioned fee).
                                 </span>
                             </div>
-                            <div class="evisa-bottom-notify-card icon-6 w48">
+                            <!--div class="evisa-bottom-notify-card icon-6 w48">
                                 <span>
                                     In case of refusal, you will be informed and we will help you to apply for a paper visa in this case.
                                 </span>
-                            </div>
-                            <div class="evisa-bottom-notify-card icon-7 w74">
+                            </div-->
+                            <!--div class="evisa-bottom-notify-card icon-7 w74">
                                 <span>
                                     We check the issued visa thoroughly.
                                 </span>
-                            </div>
+                            </div-->
                             <div class="evisa-bottom-notify-card icon-8 w48">
                                 <span>
                                     We will keep you informed of your e-visa status and let you know when your visa is ready.
