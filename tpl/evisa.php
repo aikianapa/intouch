@@ -135,7 +135,7 @@
                         <div class="evisa-center-block-background">
                             <div class="evisa-big-image-green-block">
                                 <a href="/e-visa-form">Apply for an e-visa using the form.</a> The fee for the e-visa service is
-                                <b>35 euros</b> and you can pay for it online, using the provided link.
+                                <b>{{_sett.price_evisa}} euros</b> and you can pay for it online, using the provided link.
                                 <div class="evisa-step-arrow-container">
                                     <p class="evisa-step-arrow evisa-second"></p>
                                 </div>

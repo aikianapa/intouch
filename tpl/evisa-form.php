@@ -105,7 +105,7 @@
             <section class="service-and-payment-section">
                 <h2>Service fee and payment</h2>
                 <p>
-                    Our service fee 35 eur can be paid in advance (by a payment link sent to your email), at our office or online in Paytrail payment service. We charge the corporate customers according to the agreement.
+                    Our service fee {{_sett.price_evisa}} eur can be paid in advance (by a payment link sent to your email), at our office or online in Paytrail payment service. We charge the corporate customers according to the agreement.
                 </p>
             </section>
             <section class="contact-us-section">
@@ -125,7 +125,7 @@
             <section>
                 <h2>Cancellation policy for your e-visa order</h2>
                 <p>
-                    You can cancel your e-visa order free of charge until we have received your visa documentation. If the documents have already arrived, we will charge 25-euro cancellation fee. If we have begun filling the electronic e- visa application to authority ́s system, we will charge the full e-visa service cost of 35 euro for the cancellation.
+                    You can cancel your e-visa order free of charge until we have received your visa documentation. If the documents have already arrived, we will charge {{_sett.price_evisa_cancel}} euro cancellation fee. If we have begun filling the electronic e- visa application to authority ́s system, we will charge the full e-visa service cost of {{_sett.price_evisa}} euro for the cancellation.
                 </p>
             </section>
 
@@ -148,7 +148,7 @@
                         E-visa will be ready in 2 – 6 days of filing the application.
                     </li>
                     <li>
-                        Our service fee is 35 euro (incl. vat)
+                        Our service fee is {{_sett.price_evisa}} euro (incl. vat)
                     </li>
                 </ol>
             </section>
