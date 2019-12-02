@@ -112,7 +112,7 @@
                 <h2>Contact us</h2>
                 <p>
                     If you have any questions regarding your e-visa, please contact our visa specialist,
-                    <a href="mailto:evisaintouch@gmail.com">evisaintouch@gmail.com</a>, phone...... (Mon - Fri at 9 – 17). We will be happy to assist you.
+                    <a href="mailto:evisaintouch@gmail.com">evisaintouch@gmail.com</a>. Worktime (Mon - Fri at 7 – 20 GMT +7). We will be happy to assist you.
                 </p>
             </section>
 
