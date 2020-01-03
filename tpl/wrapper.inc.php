@@ -163,7 +163,7 @@
                 </div>
 
                 <div class="col-12 col-lg-4 order-lg-1 text-center text-lg-left medium">
-                    <div>© 2017-2019 InTouch Russia LLC</div>
+                    <div>© 2017-{{date("Y")}} InTouch Russia LLC</div>
                     <small data-wb-where='"{{_VAR[lang]}}"="eng"'>Service for foreign tourists coming to Russia</small>
                     <small data-wb-where='"{{_VAR[lang]}}"="rus"'>Сервис для путешественников по России</small>
                     <small data-wb-where='"{{_VAR[lang]}}"="chi"'>提供给国外来俄罗斯旅游的客人的服务</small>

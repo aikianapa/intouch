@@ -46,7 +46,8 @@
                                     <div id="tab-{{id}}" class="collapse" role="tabpanel">
                                         <div class="faq-answer-text">
                                             <p>
-                                                {{data[{{_VAR[lang]}}_text]}}
+												<meta data-wb-role="variable" var="vt" value="{{_VAR[lang]}}_text">
+                                                {{data[{{_VAR[vt]}}]}}
                                             </p>
                                         </div>
                                     </div>
